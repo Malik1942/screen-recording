@@ -26,6 +26,9 @@ Script-driven product capture — **iOS Simulator, website, or Figma prototype**
 
 - No take before staging is complete and one-time dialogs are burned.
 - Dry-run before every recorded flow; verify field focus before typing.
+- Desktop/web film takes: `sckrecord` (ScreenCaptureKit) only — never `screencapture -v` — with the mandatory pre-roll health gate (protocol §0).
+- One pointer contract per film (synthetic arrow OR recorded cursor), decided before roll 1 and honored in every take and recapture; same stage (window, region, scale, recorder) for every act.
+- The recorded viewport must contain every payoff the script promises — verified on a dry-run still of the end state, before rolling.
 - Record to durable storage; a take without a verified end frame isn't done.
 - Trim only from measured times — tap latency makes plans fiction.
 - A contaminated take (dialog, toast, wrong state) is discarded and re-rolled, never rescued in the edit.
